@@ -1,0 +1,89 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION 1 */
+        /* ----------------------------------------------------- */
+
+        #section-1 {
+            .content-wrapper {
+                .btn {
+                    color: $color-blanco;
+                    background-color: $color-azul-oscuro;
+                }
+                .btn:hover {
+                    background-color: $color-naranja;
+                    text-decoration: none;
+                    transition: all 0.4s ease 0s;
+                }
+
+                .text-item {
+                    color: $color-azul-oscuro;
+                    line-height: 1.5;
+                    flex: 1;
+                }
+
+                .col-content.right {
+                    text-align: right;
+
+                    .col-content-block.no-pad {
+                        .ico-nro-1 {
+                            width: 400px;
+                            height: 210px;
+                        }
+                    }
+                    .img-escuela {
+                        position: absolute;
+                        bottom: -277px; /* este nro es porque se tiene que tapar con la diagonal de abajo*/
+                        left: 45px;
+                        pointer-events: none;
+                        /* un lemento absoluto se posisiona como minimo con 2 coordenadas.
+                El width y heigth viene determinado x el contendio de adentro, o sea si esta vacio no se ve nada, si o si jhay que ponerle width y heigth*/
+                        // height: ;
+                        // width:1234px;
+                    }
+                }
+
+                .col-content.left {
+                    .img-libros {
+                        position: absolute;
+                        bottom: -400px;
+                        left: calc(50% - 160px);
+                        z-index: 1;
+                    }
+                    .col-content-block {
+                        .contenedor-img-bullet {
+                            max-width: 120px;
+                            max-height: 42px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .col-content-block {
+                        .item-wrapper {
+                            margin-top: 80px;
+                            margin-right: 50px;
+                            .titulo-item {
+                                padding-bottom: 13px;
+                            }
+                            .content-item-2-col {
+                                display: flex;
+                                .ico-escuela-1 {
+                                    width: 79px;
+                                    height: 94px;
+                                    padding-right: 15px;
+                                }
+                            }
+                            .right {
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

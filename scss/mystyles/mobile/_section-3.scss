@@ -1,0 +1,37 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+
+        /* ----------------------------------------------------- */
+        /* SECTION 3 */
+        /* ----------------------------------------------------- */
+
+        #section-3 {
+            
+            .content-wrapper {
+                .img-avion-section-3 {
+                    margin: 71px 0;
+                    zoom: 62%;
+                    
+                }
+                .img-graduacion-section-3 {
+                    width: 300px;
+                    position: absolute;
+                    bottom: -333px;
+                    left: calc(50% - 150px);
+                    z-index: 999;
+                    padding-bottom: 50px;
+                
+                
+                }
+                .img-horas {
+                    flex: 0 0 140px;
+                }
+            }
+        }
+    }
+}

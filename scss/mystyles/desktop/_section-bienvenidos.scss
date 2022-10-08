@@ -1,0 +1,61 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION BIENVENIDOS */
+        /* ----------------------------------------------------- */
+
+        #section-bienvenidos {
+            background-image: url("../images/gral/fondo-bienvenidos.svg");
+            padding-bottom: 300px;
+            display: flex;
+            justify-content: center;
+            background-position: center top;
+            background-repeat: no-repeat;
+            .content-wrapper-free {
+                height: 736px;
+                /* parche xq el contenido se comporta mal si no está 100%*/
+                width: 100%;
+                .texto-bienvenidos {
+                    width: 50%;
+                    position: absolute;
+                    left: 10px;
+                    top: 338px;
+                    padding-right: 10px;
+                    .tit-bienvenidos {
+                        color: $color-naranja;
+                        font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-size: 92px;
+                        font-weight: 400;
+                        line-height: 1;
+                        width: 50%;
+                    }
+                    .subtit-bienvenidos {
+                        color: $color-placa-3;
+                        font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-size: 76px;
+                        font-weight: 400;
+                        line-height: 1;
+                    }
+                    .text-bienvenidos {
+                        font-size: 24px;
+                    }
+                }
+                .img-aviones {
+                    width: 50%;
+                    position: absolute;
+                    right: 10px;
+                    top: 168px;
+                    img {
+                        display: block;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

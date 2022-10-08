@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.656" height="53.889" viewBox="0 0 54.656 53.889">
+  <g id="tutorial" transform="translate(-879 -650.999)" opacity="0.41">
+    <path id="Subtraction_5" data-name="Subtraction 5" d="M-13768.176-3621.9H-13816v-28.637a1.672,1.672,0,0,1,1.709-1.709h20.5v-2.049a1.671,1.671,0,0,1,1.709-1.709,1.67,1.67,0,0,1,1.706,1.709v2.049h20.5a1.672,1.672,0,0,1,1.709,1.709v28.636Zm-42.239-26.106a1,1,0,0,0-1,1v21h38v-21a1,1,0,0,0-1-1Z" transform="translate(14698.416 4307)" fill="#fff"/>
+    <g id="whiteboard" transform="translate(879 651)">
+      <g id="Group_3915" data-name="Group 3915" transform="translate(0 36.95)">
+        <g id="Group_3914" data-name="Group 3914">
+          <path id="Path_7993" data-name="Path 7993" d="M52.948,332.288H1.708A1.751,1.751,0,0,0,0,334,1.678,1.678,0,0,0,1.708,335.7H23.855L13.778,346.351a1.691,1.691,0,1,0,2.448,2.334c6.774-6.756,1.708-2.567,11.28-10.228L38.43,348.685a1.691,1.691,0,1,0,2.448-2.334L30.8,335.7H52.948a1.708,1.708,0,0,0,0-3.416Z" transform="translate(0 -332.288)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

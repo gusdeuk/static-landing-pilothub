@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="213" viewBox="0 0 213 213">
+  <g id="ico-modal-experiencia" transform="translate(-1439 -230)">
+    <g id="Group_3739" data-name="Group 3739" transform="translate(1439 230)">
+      <path id="Path_7495" data-name="Path 7495" d="M1283.019,703.38a106.5,106.5,0,1,1,106.5-106.5A106.5,106.5,0,0,1,1283.019,703.38Z" transform="translate(-1176.519 -490.38)" fill="#fff"/>
+    </g>
+    <g id="Group_3740" data-name="Group 3740" transform="translate(1473 264)">
+      <path id="Path_7495-2" data-name="Path 7495" d="M1249.019,635.38a72.5,72.5,0,1,1,72.5-72.5A72.5,72.5,0,0,1,1249.019,635.38Z" transform="translate(-1176.519 -490.38)" fill="#1c39aa"/>
+    </g>
+    <g id="airport" transform="translate(1493 310)">
+      <g id="Group_3283" data-name="Group 3283" transform="translate(49.227 22.417)">
+        <g id="Group_3282" data-name="Group 3282" transform="translate(0 0)">
+          <rect id="Rectangle_2836" data-name="Rectangle 2836" width="6.79" height="5.092" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_3285" data-name="Group 3285">
+        <g id="Group_3284" data-name="Group 3284">
+          <path id="Path_7564" data-name="Path 7564" d="M37.477,22.37A15.766,15.766,0,0,1,49.868,9.621V0h6.208V9.621A15.766,15.766,0,0,1,68.467,22.37l37.477,6.246V46.764H91.391v6.208H85.183V46.764H62.341a15.692,15.692,0,0,1-18.738,0H20.761v6.208H14.553V46.764H0V28.616Zm62.26,18.187V33.875L68.7,28.7v5.441a15.626,15.626,0,0,1-1.373,6.415ZM43.454,34.142a9.518,9.518,0,0,0,19.037,0v-9.1a9.518,9.518,0,0,0-19.037,0ZM6.208,40.557H38.619a15.629,15.629,0,0,1-1.373-6.415V28.7L6.208,33.875Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+/* ----------------------------------------------------- */
+/******
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        /* ----------------------------------------------------- */
+        /* BACKGROUND PARA SECTION */
+        /* ----------------------------------------------------- */
+
+        #section-2 {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2560' height='6999.999' viewBox='0 0 2560 6999.999'%3E%3Cg id='base-placa-2-mobile' transform='translate(0 -0.001)'%3E%3Cpath id='base' d='M4663,9117H2103V2575.031L4663,2117Z' transform='translate(-2103 -2117)' fill='%231c39aa'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        #section-3 {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2560' height='6999.999' viewBox='0 0 2560 6999.999'%3E%3Cg id='base-placa-3-mobile' transform='translate(0 -0.001)'%3E%3Cpath id='base' d='M4663,9117H2103V2575.031L4663,2117Z' transform='translate(-2103 -2117)' fill='%2303254b'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        #section-4 {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2560' height='6999.999' viewBox='0 0 2560 6999.999'%3E%3Cg id='base-placa-4-mobile' transform='translate(0 -0.001)'%3E%3Cpath id='base' d='M4663,9117H2103V2575.031L4663,2117Z' transform='translate(-2103 -2117)' fill='%232073de'/%3E%3C/g%3E%3C/svg%3E");
+            padding-bottom: 150px;
+        }
+
+        .background-section-1 {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2560' height='6999.999' viewBox='0 0 2560 6999.999'%3E%3Cg id='base-placa-1-mobile' transform='translate(0 -0.001)'%3E%3Cpath id='base' d='M4663,9117H2103V2575.031L4663,2117Z' transform='translate(-2103 -2117)' fill='%232073de'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* ----------------------------------------------------- */
+        /* ESTILOS BACKGROUND PARA TIMELINE Y CONTENT WRAPPER */
+        /* ----------------------------------------------------- */
+        #section-1,
+        #section-2,
+        #section-3,
+        #section-4 {
+       
+            margin-top: -298px; /* ESTE MARGIN EX PARA QUE SE SOLAPE CON LA content-wrapper DE ARRIBA*/
+            padding-bottom: 180px; /* ESTE PADDING ES PARA UBICAR EL DIV CON EL CONTENIDO*/
+           
+
+            background-position: center top;
+            background-repeat: no-repeat;
+
+            .content-wrapper {
+                padding-top: 230px;
+                // display: flex;
+                // flex: 1;
+                // margin: 0 50px;
+                // max-width: 1250px;
+                
+            }
+        }
+    }
+}

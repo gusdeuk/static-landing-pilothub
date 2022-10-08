@@ -1,0 +1,516 @@
+/* ------------------------------------------------------- */
+/* import VARIABLES */
+/* ------------------------------------------------------- */
+@import "../../../scss/variables";
+
+.modal-section-gral {
+    color: $color-azul-oscuro;
+    font-size: 15px;
+    z-index: 10000000;
+    line-height: 1.3;
+    padding: 0 !important;
+
+    .destacado-celeste {
+        background-color: #edf3fa;
+        padding: 22px;
+        margin-bottom: 2rem;
+        color: #2663b1;
+    }
+
+    .destacado-naranja {
+        background-color: #ffebd5;
+        padding: 15px;
+        margin-top: 0.5rem;
+        color: #ba660a;
+    }
+
+    .t-big-celeste {
+        color: $color-placa-1;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0.3rem;
+    }
+
+    .p-naranja {
+        color: $color-naranja;
+    }
+
+    .p-grande {
+        font-size: 20px;
+    }
+
+    .p-mayuscula {
+        text-transform: uppercase;
+    }
+    .t-naranja {
+        color: $color-naranja;
+        font-weight: 600;
+    }
+    .t-celeste {
+        color: $color-placa-1;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+    }
+
+    .modal-dialog {
+        max-width: calc(100vw - 100px);
+
+        .modal-content {
+            border-radius: 0;
+
+            .mod-header {
+                position: relative;
+                height: 300px;
+                overflow: hidden;
+                color: white;
+                font-family: Bebas, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+                .header-bg {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #2073de;
+                    transform: skewY(-6deg);
+                    transform-origin: top left;
+                }
+
+                .header-elems {
+                    position: relative;
+                    z-index: 1;
+                    margin: 77px;
+
+                    .btn-cerrar:hover span {
+                        opacity: 0.5;
+                    }
+
+                    .mod-tit {
+                        font-size: 52px;
+                        padding-top: 22px;
+                        margin-right: 317px;
+                        line-height: 1.1;
+                    }
+
+                    .mod-subtit {
+                        font-size: 35px;
+                        color: #ff970d;
+                        margin-right: 180px;
+                        line-height: 1.2;
+                    }
+                    .mod-close {
+                        color: white;
+                        position: absolute;
+                        top: -64px;
+                        right: -62px;
+                        font-size: 25px;
+                        background: transparent;
+                        border: 0;
+                    }
+
+                    .mod-icon {
+                        position: absolute;
+                        height: 150px;
+                        width: 150px;
+                        top: 43px;
+                        right: 0px;
+                    }
+                }
+            }
+
+            .mod-body {
+                margin: 77px;
+                // .bck-video {
+                //     border: 4px solid #111111;
+                //     width: 947px;
+                //     height: 535px;
+                .video-players {
+                    width: 100%;
+                    outline: none;
+                    border: 4px solid #111111;
+                    max-width: 947px;
+                }
+                //}
+
+                .ayuda-tramite {
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    background-color: #f6f6f6;
+                    padding: 20px;
+
+                    .img-ayuda-tramite {
+                        margin-right: 18px;
+                    }
+
+                    .texto-anuncio {
+                        font-family: Bebas, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+                        font-size: 35px !important;
+                        color: $color-naranja !important;
+                    }
+                    .texto-ayuda-tramite {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+
+                .alert-dismissible {
+                    background-color: #ffd280;
+                    text-align: center;
+                    padding: 25px;
+                    color: #856404;
+
+                    .close {
+                    }
+                }
+                .mayusculas {
+                    text-transform: uppercase;
+                }
+
+                h1 {
+                    color: $color-naranja;
+                    font-size: 35px;
+                    line-height: 1.5;
+                    text-align: left;
+                }
+                .btn-modal {
+                    width: auto;
+                    padding: 2px 11px;
+                    background-color: $color-placa-4;
+
+                    color: #fff;
+                    font-size: 15px;
+                    margin-bottom: 2rem;
+                }
+
+                .btn-modal:hover {
+                    opacity: 0.8;
+                }
+
+                .bloque {
+                    margin-bottom: 40px;
+
+                    #desplegable-tutorial-cma {
+                        display: none;
+                    }
+
+                    .desplegable-guardar {
+                        background-color: #f6f6f6;
+                        margin-top: 50px;
+                        margin-bottom: 25px;
+
+                        .desplegable-header {
+                            text-align: right;
+                            padding: 15px 15px 0;
+                            .btn-cerrar {
+                                border: 0;
+                                background-color: transparent;
+                            }
+                        }
+
+                        .desplegable-cont {
+                            padding: 20px 52px 50px;
+
+                            .paso {
+                                margin-bottom: 55px;
+
+                                .desplegable-imagen {
+                                    text-align: center;
+                                    margin-top: 35px;
+                                }
+                            }
+
+                            h1 {
+                                font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: $color-azul-oscuro;
+                            }
+                            h2 {
+                                font-family: Bebas, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: $color-naranja;
+                                font-size: 27px;
+                            }
+                        }
+                    }
+
+                    &.c-borde {
+                        border: 1px solid $color-placa-3;
+                        // -webkit-box-shadow: 2px 2px 30px 8px rgba(242, 240, 240, 1);
+                        // -moz-box-shadow: 2px 2px 30px 8px rgba(242, 240, 240, 1);
+                        // box-shadow: 2px 2px 30px 8px rgba(242, 240, 240, 1);
+                        text-align: center;
+                        padding: 25px;
+                        width: 80%;
+                        margin: 70px auto;
+                        text-transform: uppercase;
+                        line-height: 1.5;
+                        font-size: 18px;
+                        background-color: #edf3fa;
+                    }
+                    ul {
+                        list-style: none; /* Remove default bullets */
+                        padding-left: 15px;
+                        line-height: 1.5;
+                    }
+
+                    ul li::before {
+                        line-height: 1;
+                        content: "\2022";
+                        color: $color-naranja;
+                        font-weight: 700;
+                        display: inline-block;
+                        width: 19px;
+                        font-size: 23px;
+                        position: relative;
+                        top: 2px;
+                    }
+                }
+            }
+            .mod-footer {
+                position: relative;
+                height: 160px;
+                overflow: hidden;
+                .footer-bg {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #2073de;
+                    transform: skewY(-6deg);
+                    transform-origin: top right;
+                }
+            }
+        }
+    }
+}
+
+//-------------------------------------
+// Notebokk 1270 a 1600
+@media (max-width: 1600px) {
+}
+
+//-------------------------------------
+// Notebokk 1250 para arriba --- es para el ancho del pop up
+
+@media (min-width: 1250px) {
+    .modal-section-gral {
+        .modal-dialog {
+            max-width: 1250px;
+        }
+    }
+}
+
+//-------------------------------------
+// Tableta 992 a 1270
+@media (max-width: 1269px) {
+    .modal-section-gral {
+        .modal-dialog {
+            .modal-content {
+                .mod-header {
+                    .header-elems {
+                        margin: 70px;
+                        .mod-tit {
+                            // padding-top: 0;
+                        }
+                        .mod-icon {
+                            // top: 110px;
+                            // height: 130px;
+                            // width: 130px;
+                            top: 73px;
+                        }
+                        .mod-tit {
+                            font-size: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-------------------------------------
+// Tableta Small 768 a 992
+@media (max-width: 992px) {
+    .modal-section-gral {
+        .modal-dialog {
+            .modal-content {
+                .mod-header {
+                    .header-elems {
+                        .mod-icon {
+                            top: 95px;
+                        }
+                        .mod-tit {
+                            padding-top: 0px;
+                            margin-right: 157px;
+                        }
+                    }
+                }
+
+                .ayuda-tramite {
+                    .texto-anuncio {
+                        font-size: 30px;
+                        line-height: 1;
+                    }
+
+                    .texto-ayuda-tramite {
+                        img {
+                            zoom: 0.9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//-------------------------------------
+// mobile 767px
+
+@media (max-width: 767px) {
+    .modal-section-gral {
+        .modal-dialog {
+            max-width: calc(100vw - 60px);
+            .ayuda-tramite {
+                text-align: center;
+                flex-direction: column;
+                .img-ayuda-tramite {
+                    margin-bottom: 25px;
+                    margin-right: 0;
+                }
+
+                .anuncio-ayuda {
+                    .texto-anuncio {
+                        text-align: center;
+                    }
+                }
+
+                .texto-ayuda-tramite {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+//-------------------------------------
+// mobile
+
+/* min de 450px a 630px*/
+
+@media (max-width: 630px) {
+    .modal-section-gral {
+        .p-grande {
+            font-size: 14px;
+        }
+        .modal-dialog {
+            max-width: 100%;
+            margin: 0.5rem;
+            padding-left: 5px;
+            .modal-content {
+                .mod-header {
+                    .header-elems {
+                        margin: 49px 35px;
+                        .mod-icon {
+                            position: relative;
+                            margin: 0 auto;
+                            padding-top: 23px;
+                            top: 0;
+                            width: 100px;
+                            height: 100px;
+                        }
+                        .mod-tit,
+                        .mod-subtit {
+                            //padding-top: 0;
+                            margin-right: 0;
+                            text-align: center;
+                            font-size: 35px;
+                        }
+                        .mod-subtit {
+                            font-size: 30px;
+                        }
+                        .mod-close {
+                            right: -30px;
+                            top: -45px;
+                        }
+                    }
+                }
+                .mod-body {
+                    margin: 35px;
+                    .bloque {
+                        .desplegable-guardar {
+                            .desplegable-cont {
+                                padding: 20px 12px 26px;
+                            }
+                        }
+                    }
+                    .bloque.c-borde {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/***************** MEDIA QUERY 360-450PX ***********************/
+/* min de 360px a 450px*/
+
+@media (max-width: 450px) {
+    .modal-section-gral {
+        .modal-dialog {
+            // max-width: calc(100vw - 30px);
+            .modal-content {
+                .mod-header {
+                    .header-elems {
+                        .mod-tit {
+                            font-size: 30px;
+                            line-height: 1.1;
+                        }
+                        .mod-subtit {
+                            font-size: 27px;
+                            line-height: 1.2;
+                        }
+                        .mod-icon {
+                            width: 88px;
+                            height: 88px;
+                        }
+                    }
+                }
+                .mod-body {
+                    text-align: center;
+                    h1 {
+                        font-size: 30px;
+                        text-align: center;
+                    }
+
+                    .bloque {
+                        .anuncio-ayuda {
+                            .texto-anuncio {
+                                text-align: center;
+                            }
+                        }
+                        .desplegable-guardar {
+                            .desplegable-cont {
+                                text-align: left;
+
+                                h1 {
+                                    line-height: 1;
+                                    margin-bottom: 21px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

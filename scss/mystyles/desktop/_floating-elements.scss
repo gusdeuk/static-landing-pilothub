@@ -1,0 +1,171 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* BOTONES FLOTANTES */
+        /* ----------------------------------------------------- */
+
+        .boton-float-tramites {
+            position: fixed;
+            bottom: 0;
+            left: 10vw;
+            z-index: 1000;
+            // truco paera ocultar y desocultar al animar > si esta la clase animate
+            // esto usa css animate
+            visibility: hidden;
+            &.animated {
+                visibility: visible;
+            }
+            .btn-tramites img {
+                width: auto;
+                display: block;
+                height: 100px;
+                //height: 90px;
+                pointer-events: auto;
+
+            }
+        }
+
+        .boton-float-instagram {
+            position: fixed;
+            bottom: 15px;
+            right: 10vw;
+            visibility: hidden;
+
+            &.instagram-appear {
+                //display: block;
+                visibility: visible;
+                animation-name: instagram-appear-animation-desktop;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in-out;
+            }
+            &.instagram-hide {
+                //display: none;
+                visibility: visible;
+                animation-name: instagram-hide-animation-desktop;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in-out;
+            }
+
+            &.instagram-appear-bottom {
+                //display: block;
+                visibility: visible;
+                animation-name: instagram-appear-animation-bottom-desktop;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in-out;
+            }
+            &.instagram-hide-bottom {
+                //display: none;
+                visibility: visible;
+                animation-name: instagram-hide-animation-bottom-desktop;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in-out;
+            }
+
+            .btn-instagram {
+                img {
+                    width: auto;
+                    display: block;
+                    height: 82px;
+                    width: 82px;
+                    pointer-events: auto;
+                }
+            }
+        }
+    }
+}
+
+// ------------------------------------------
+// KEYFRAMES DE ANIMACIONES >> deben tener nombres UNICOS
+// ------------------------------------------
+@keyframes instagram-appear-animation-desktop {
+    0% {
+        right: calc(50% - 100px);
+        bottom: 70%;
+        transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.5) rotateX(0deg) rotateY(0deg) rotateZ(180deg) translate(-50%, -50%);
+        bottom: 35%;
+        right: 70%;
+        opacity: 1;
+    }
+    100% {
+        right: 10vw;
+        bottom: 15px;
+        transform: scale(1);
+    }
+}
+
+@keyframes instagram-hide-animation-desktop {
+    0% {
+        right: 10vw;
+        bottom: 15px;
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(3) rotateX(0deg) rotateY(0deg) rotateZ(180deg) translate(-50%, -50%);
+        bottom: 10%;
+        right: 20%;
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        right: calc(50% - 100px);
+        bottom: 30%;
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes instagram-appear-animation-bottom-desktop {
+    0% {
+        right: 30%;
+        bottom: -100px;
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.5) rotateX(0deg) rotateY(0deg) rotateZ(180deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    100% {
+        right: 10vw;
+        bottom: 15px;
+        transform: scale(1);
+    }
+}
+
+@keyframes instagram-hide-animation-bottom-desktop {
+    0% {
+        right: 10vw;
+        bottom: 15px;
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(3) rotateX(0deg) rotateY(0deg) rotateZ(180deg) translate(-50%, -50%);
+        bottom: 10%;
+    }
+    100% {
+        right: 30%;
+        bottom: 30%;
+        transform: scale(0);
+        opacity: 0;
+    }
+}

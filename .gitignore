@@ -1,0 +1,6 @@
+desktop.ini
+_LOCAL/
+node_modules
+ejemplo-tirar
+# este git ignore es solo para el root, ojo
+Icon?

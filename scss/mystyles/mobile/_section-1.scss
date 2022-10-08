@@ -1,0 +1,59 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        
+        /* ----------------------------------------------------- */
+        /* SECTION 1 */
+        /* ----------------------------------------------------- */
+
+        #section-1 {
+            .content-wrapper {
+                
+                .col-content-mobile {
+                    position: relative;
+                    padding-bottom: 75px;
+                    
+                    .item-wrapper {
+                        margin-top: 30px;
+                        .titulo-item {
+                            padding-bottom: 13px;
+                        }
+                        .content-item-2-col {
+                            display: flex;
+                            text-align: left;
+                            .ico-escuela-1 {
+                                width: 56px;
+
+                                padding-right: 15px;
+                            }
+                            .text-item {
+                                color: $color-azul-oscuro;
+                                line-height: 1.3;
+                                flex: 1;
+                            }
+                        }
+                        .right {
+                            text-align: right;
+                        }
+                        .btn {
+                            color: $color-blanco;
+                            background-color: $color-azul-oscuro;
+                        }
+                    }
+                    .img-libros {
+                        width: 150px;
+                        position: absolute;
+                        bottom: -115px;
+                        left: calc(50% - 75px);
+                        z-index: 999;
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

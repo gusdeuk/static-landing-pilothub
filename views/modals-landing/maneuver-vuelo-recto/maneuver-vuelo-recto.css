@@ -1,0 +1,13 @@
+/* CUANDO DUPLICO TENGO QUE PONER EL NOMBRE DE LA CLASE DE ESE TIP, X EJ .maneuver-vuelo-recto (manuever-nombrearticulo) */
+
+.maneuver-vuelo-recto 
+.mod-header {
+  background-image: url("assets/header-maneuver.svg");
+}
+
+@media (max-width: 630px) {
+  .maneuver-vuelo-recto 
+  .mod-header {
+    background-image: url("assets/header-mob-maneuver.svg");
+  }
+}

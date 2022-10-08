@@ -1,0 +1,12 @@
+<svg id="ico-horas" xmlns="http://www.w3.org/2000/svg" width="63" height="31" viewBox="0 0 63 31">
+  <g id="Group_3283" data-name="Group 3283" transform="translate(29.292 13.11)">
+    <g id="Group_3282" data-name="Group 3282" transform="translate(0 0)">
+      <rect id="Rectangle_2836" data-name="Rectangle 2836" width="4" height="3" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_3285" data-name="Group 3285">
+    <g id="Group_3284" data-name="Group 3284">
+      <path id="Path_7564" data-name="Path 7564" d="M22.286,13.091A9.3,9.3,0,0,1,29.654,5.63V0h3.691V5.63a9.3,9.3,0,0,1,7.369,7.461L63,16.746V27.367H54.346V31H50.654V27.367H37.071a9.452,9.452,0,0,1-11.142,0H12.346V31H8.654V27.367H0V16.746ZM59.309,23.734v-3.91L40.852,16.8V19.98a9.022,9.022,0,0,1-.817,3.754ZM25.84,19.98a5.661,5.661,0,0,0,11.32,0V14.652a5.661,5.661,0,0,0-11.32,0ZM3.691,23.734H22.965a9.023,9.023,0,0,1-.817-3.754V16.8L3.691,19.824Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

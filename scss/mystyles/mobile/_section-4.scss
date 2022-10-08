@@ -1,0 +1,45 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        /* ----------------------------------------------------- */
+        /* SECTION 4 */
+        /* ----------------------------------------------------- */
+
+        #section-4 {
+           
+            .content-wrapper {
+                .col-content-block {
+                    .item-wrapper {
+                        .content-item-3-col {
+                            .text-item {
+                                color: $color-azul-oscuro;
+                                .text-item-2 {
+                                    span {
+                                        color: $color-blanco;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .img-avion-section-3 {
+                    zoom: 55%;
+                    margin: 91px 0;
+                }
+               .img-licencia-comercial-mobile {
+                width: 300px;
+                position: absolute;
+                bottom: -327px;
+                left: calc(50% - 150px);
+                z-index: 999;
+               
+               }
+            }
+        }
+    }
+}

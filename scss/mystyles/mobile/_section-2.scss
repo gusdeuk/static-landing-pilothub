@@ -1,0 +1,36 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        /* ----------------------------------------------------- */
+        /* SECTION 2 */
+        /* ----------------------------------------------------- */
+
+        #section-2 {
+            h2 {
+                margin-top: 12px;
+            }
+            .content-wrapper {
+                
+                   
+                .col-content-mobile {
+                   
+                    margin-bottom: 100px;
+                    .ico-section-2 {
+                        margin: 0 auto;
+                        width: 129px;
+                        height: 38px;
+                    }
+
+                    .ico-section-2-certificacion {
+                        width: 70px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

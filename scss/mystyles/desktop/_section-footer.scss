@@ -1,0 +1,47 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION FOOTER */
+        /* ----------------------------------------------------- */
+
+        #section-footer {
+            background-color: $color-placa-3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .content-wrapper {
+                display: flex;
+                flex: 1;
+                margin: 0 50px;
+                max-width: 1250px;
+                padding-top: 130px;
+                .tit-egresado {
+                    font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 90px;
+                    font-weight: 300;
+                    color: $color-naranja;
+                    line-height: 1;
+                    .subtit-egresado {
+                        color: $color-placa-1;
+                        font-size: 78px;
+                        margin: 15px 0 15px 0;
+                    }
+                    .text-egresado {
+                        font-size: 50px;
+                        color: $color-blanco;
+                        line-height: 1.2;
+                    }
+                }
+
+                .img-felicitaciones {
+                    max-width: 440px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        /* ----------------------------------------------------- */
+        /* SECTION VIDEO */
+        /* ----------------------------------------------------- */
+
+        #section-video {
+            background-image: url("../images/gral/video.jpg");
+            // display: flex;
+            // justify-content: center;
+            border-bottom: #ff970d 17px solid;
+            .content-wrapper-free {
+                .logo {
+                    text-align: center;
+                    padding-top: 18px;
+                    margin: 0 auto;
+                    width: 360px;
+                }
+                .texto {
+                    text-align: center;
+                    padding-top: 22px;
+                    .texto-1,
+                    .texto-2 {
+                        font-weight: 500;
+                        font-size: 50px;
+                        line-height: 1;
+                        display: block;
+                        opacity: 0.7;
+                        filter: alpha(opacity=70); /* IE8 and lower */
+                    }
+                    .texto-2 {
+                        font-size: 64px;
+                    }
+                }
+                .icos-seccion-video {
+                    margin: 0 10px;
+                    
+                    padding-top: 21px;
+                    .icos-seccion-video-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        .ico {
+                            flex:0 0 38px;
+                            .ico-img {
+                                margin: 0 auto;
+                                text-align: center;
+                                height: 38px;
+                                width: 38px;
+                            }
+                        }
+                        .ico-textos {
+                            opacity: 0.4;
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+                .instagram img {
+                    width: 100px;
+
+                }
+            }
+        }
+    }
+}

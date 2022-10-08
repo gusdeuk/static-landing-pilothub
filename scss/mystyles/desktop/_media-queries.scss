@@ -1,0 +1,612 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* MEDIA QUERIES */
+        /* ----------------------------------------------------- */
+
+        //-------------------------------------
+        // Mas de 1600 > PC full
+        .subtit-bienvenidos {
+            //background-color: red;
+        }
+
+        //-------------------------------------
+        // Notebokk 1270 a 1600
+        @media (max-width: 1600px) {
+            .subtit-bienvenidos {
+                // background-color: yellowgreen;
+            }
+            #section-video {
+                .content-wrapper-free {
+                    .logo {
+                        padding-top: 10px;
+                        margin: 0 auto;
+                        width: 474px;
+                    }
+                    .texto {
+                        padding-top: 10px;
+                        .texto-1 {
+                            font-size: 72px;
+                        }
+                        .texto-2 {
+                            font-size: 85px;
+                        }
+                    }
+                    .icos-seccion-video {
+                        padding-top: 11px;
+                        .icos-seccion-video-wrapper {
+                            .ico {
+                                .ico-img {
+                                    text-align: center;
+                                    width: 43px;
+                                    height: 43px;
+                                    margin: 0 auto;
+                                }
+                                .ico-textos {
+                                    margin-top: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .instagram {
+                padding-top: 17px;
+                padding-bottom: 18px;
+                transform: scale(0.9);
+                img {
+                    height: 95px;
+                }
+            }
+        }
+
+        @media (min-width: 1271px) and (max-width: 1340px) {
+            #section-banner-footer {
+                .col-content {
+                    &.left {
+                        zoom: 0.9;
+                    }
+
+                    &.right {
+                        zoom: 0.93;
+                    }
+                }
+            }
+        }
+
+        //-------------------------------------
+        // Tableta 992 a 1270
+        @media (max-width: 1269px) {
+            .subtit-bienvenidos {
+                // background-color: pink;
+            }
+
+            #section-bienvenidos {
+                padding-bottom: 220px;
+                .content-wrapper-free {
+                    .texto-bienvenidos {
+                        padding-right: 29px;
+                        top: 215px;
+                    }
+                    .img-aviones {
+                        width: 47%;
+                        top: 254px;
+                    }
+                }
+            }
+            #section-video {
+                .content-wrapper-free {
+                }
+            }
+            .section-wrapper {
+                .content-wrapper {
+                    .col-content {
+                        .col-content-block {
+                            h1 {
+                                font-size: 65px;
+                            }
+                        }
+                    }
+                }
+            }
+            #section-1 {
+                .content-wrapper {
+                    .col-content.left {
+                        margin-top: 15vh;
+                        .img-libros {
+                            bottom: -361px;
+                            left: calc(50% - 133px);
+                            width: 200px;
+                        }
+                        .col-content-block {
+                            .item-wrapper {
+                                margin-top: 50px;
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .col-content.right {
+                        .img-escuela {
+                            bottom: -304px;
+                        }
+                    }
+                }
+            }
+
+            #section-3,
+            #section-4 {
+                .content-wrapper {
+                    .col-content {
+                        .col-content-block {
+                            .item-wrapper {
+                                .content-item-3-col {
+                                    .img-horas {
+                                        min-width: 200px;
+                                        max-width: 200px;
+                                        img {
+                                            width: 100%;
+                                            height: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-3 {
+                .col-content.left {
+                    margin-top: 15vh;
+                }
+            }
+
+            #section-banner-footer {
+                .content-wrapper {
+                    .col-content.right {
+                        .img-back-felicitaciones {
+                            display: none;
+                        }
+                        .col-content-block {
+                            .text-sumate-instagram {
+                                font-size: 85px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //-------------------------------------
+        // Tableta Small 768 a 992
+        @media (max-width: 992px) {
+            .subtit-bienvenidos {
+                // background-color: burlywood;
+            }
+
+            .instagram {
+                padding-top: 29px;
+                zoom: 90%;
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .botones .btn {
+                padding: 5px 9px 5px 9px;
+                // margin-right: 50px;
+                font-size: 15px;
+            }
+
+            .ico-nro-1,
+            .ico-nro-2 {
+                width: 339px !important;
+            }
+
+            .section-wrapper {
+                .content-wrapper {
+                    .col-content {
+                        .botones {
+                            max-width: 108px;
+                            min-width: 108px;
+                        }
+                        .col-content-block {
+                            h1 {
+                                font-size: 55px;
+                            }
+                        }
+                    }
+                    .col-content.left {
+                        flex: 1;
+                        width: 50%;
+                        margin-bottom: 0;
+                        .col-content-block {
+                            .item-wrapper {
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+
+                    .col-content.right {
+                        .col-content-block {
+                            .item-wrapper {
+                                margin-left: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-video {
+                .content-wrapper-free {
+                    .logo {
+                        min-width: 400px;
+                        max-width: 400px;
+                        margin: 0 auto;
+                        padding-top: 20px;
+                    }
+                    .texto {
+                        padding-top: 15px;
+                    }
+                }
+            }
+
+            #section-bienvenidos {
+                background-size: cover;
+                .content-wrapper-free {
+                    height: 543px;
+                    .texto-bienvenidos {
+                        top: 180px;
+
+                        .tit-bienvenidos {
+                            font-size: 79px;
+                            top: 165px;
+                        }
+                        .subtit-bienvenidos {
+                            font-size: 68px;
+                        }
+                        .text-bienvenidos {
+                            font-size: 22px;
+                            line-height: 1;
+                        }
+                    }
+                    .img-aviones {
+                        top: 186px;
+                    }
+                }
+            }
+
+            #section-1,
+            #section-2,
+            #section-3,
+            #section-4 {
+                .content-wrapper {
+                    padding-top: 358px;
+                    margin: 0 25px; /*chico margen general del contenedor -- content-wrapper*/
+                }
+            }
+
+            /*item-wrapper da el margen de la caja con el icono*/
+            #section-1 {
+                .content-wrapper {
+                    .col-content.left {
+                        margin-top: 21vh;
+                        .img-libros {
+                            bottom: -207px;
+                            width: 150px;
+                            left: calc(50% - 115px);
+                        }
+                        .col-content-block {
+                            .item-wrapper {
+                                .content-item-2-col {
+                                    .ico-escuela-1 {
+                                        padding-right: 0;
+                                        width: 46px;
+                                    }
+                                    .text-item {
+                                        line-height: 1.4;
+                                        padding-left: 12px;
+                                        font-size: 19px;
+                                    }
+                                }
+                                margin-top: 20px;
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+
+                    .col-content.right {
+                        .img-escuela {
+                            bottom: -280px;
+                        }
+                    }
+                }
+            }
+
+            #section-3 {
+                .content-wrapper {
+                    .col-content {
+                        &.left {
+                            margin-top: 21vh;
+                            .img-graduacion-section-3 {
+                                bottom: -195px;
+                                left: calc(50% - 232px);
+                                width: 380px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-3,
+            #section-4 {
+                .col-content {
+                    .col-content-block {
+                        .item-wrapper {
+                            .content-item-3-col {
+                                .text-item {
+                                    padding: 0 12px 0 12px;
+                                    font-size: 16px;
+                                }
+                                .ico-section-3 {
+                                    min-width: 29px;
+                                    max-width: 29px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-3,
+            #section-4 {
+                .content-wrapper {
+                    .col-content {
+                        .col-content-block {
+                            .item-wrapper {
+                                .content-item-3-col {
+                                    .text-item {
+                                        .text-item-2 {
+                                            span {
+                                                font-size: 16px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-banner-footer .content-wrapper,
+            #section-footer .content-wrapper {
+                padding-top: 120px;
+            }
+
+            #section-banner-footer .content-wrapper .tit-egresado,
+            #section-footer .content-wrapper .tit-egresado {
+                font-size: 83px;
+            }
+
+            #section-banner-footer .content-wrapper .tit-egresado .subtit-egresado,
+            #section-footer .content-wrapper .tit-egresado .subtit-egresado {
+                font-size: 74px;
+                margin: 9px 0 9px 0;
+            }
+
+            #section-3 .content-wrapper .col-content .col-content-block .item-wrapper .content-item-3-col .img-horas,
+            #section-4 .content-wrapper .col-content .col-content-block .item-wrapper .content-item-3-col .img-horas {
+                min-width: 130px;
+                max-width: 130px;
+            }
+        }
+
+        //-------------------------------------
+        // Celular Menos de 768
+        @media (max-width: 768px) {
+            .subtit-bienvenidos {
+                // background-color: violet;
+            }
+
+            h2 {
+                font-size: 39px;
+            }
+
+            .instagram {
+                padding-top: 29px;
+            }
+
+            #section-video {
+                .content-wrapper-free {
+                    .logo {
+                        min-width: 390px;
+                        max-width: 390px;
+                        margin: 0 auto;
+                        padding-top: 20px;
+                    }
+                    .texto {
+                        .texto-1 {
+                            font-size: 62px;
+                        }
+                        .texto-2 {
+                            font-size: 74px;
+                        }
+                        padding-top: 15px;
+                        padding-top: 26px;
+                    }
+                    .icos-seccion-video {
+                        // width: 67vh;
+                        padding-top: 21px;
+                    }
+                }
+            }
+
+            #section-bienvenidos {
+                background-size: cover;
+                .content-wrapper-free {
+                    height: 543px;
+                    .texto-bienvenidos {
+                        top: 180px;
+
+                        .tit-bienvenidos {
+                            font-size: 79px;
+                            top: 165px;
+                        }
+                        .subtit-bienvenidos {
+                            font-size: 68px;
+                        }
+                        .text-bienvenidos {
+                            font-size: 22px;
+                            line-height: 1;
+                        }
+                    }
+                    .img-aviones {
+                        top: 186px;
+                    }
+                }
+            }
+
+            .section-wrapper {
+                .content-wrapper {
+                    .col-content {
+                        &.left {
+                            flex: 1;
+                            width: 50%;
+                            margin-bottom: 0;
+                        }
+                        .col-content-block {
+                            h1 {
+                                font-size: 55px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-1 .content-wrapper,
+            #section-2 .content-wrapper,
+            #section-3 .content-wrapper,
+            #section-4 .content-wrapper {
+                padding-top: 358px;
+            }
+
+            #section-1 {
+                .content-wrapper {
+                    .col-content.left {
+                        .col-content-block {
+                            .item-wrapper {
+                                .content-item-2-col {
+                                    .ico-escuela-1 {
+                                        padding-right: 0;
+                                        width: 46px;
+                                    }
+                                    .text-item {
+                                        line-height: 1.4;
+                                        padding-left: 12px;
+                                        font-size: 19px;
+                                    }
+                                }
+                                margin-top: 20px;
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-1,
+            #section-3 {
+                .col-content.left {
+                    margin-top: 21vh;
+                }
+            }
+
+            #section-2 {
+                .content-wrapper {
+                    .col-content.right {
+                        .col-content-block {
+                            .contenedor-img-bullet {
+                                top: -54px;
+                            }
+                        }
+                    }
+                    .col-content.left {
+                        .col-content-block {
+                            .contenedor-img-bullet {
+                                top: -41px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-3 {
+                .content-wrapper {
+                    .col-content.left {
+                        .img-graduacion-section-3 {
+                            left: calc(50% - 169px);
+                            width: 280px;
+                        }
+                    }
+                }
+            }
+
+            #section-footer {
+                .content-wrapper {
+                    .tit-egresado {
+                        font-size: 61px;
+                        .subtit-egresado {
+                            font-size: 61px;
+                        }
+                        .text-egresado {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+
+            #section-banner-footer {
+                .content-wrapper {
+                    .col-content.left {
+                        .tit-sumate {
+                            line-height: 1.1;
+                            font-size: 30px;
+                        }
+                        .text-sumate {
+                            font-size: 23px;
+                        }
+                    }
+                    .col-content.right {
+                        margin-bottom: 0;
+                        .instagram {
+                            zoom: 70%;
+                            padding-top: 56px;
+                        }
+                        .col-content-block {
+                            .text-sumate-instagram {
+                                font-size: 74px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-banner-footer .content-wrapper,
+            #section-footer .content-wrapper {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="213" viewBox="0 0 213 213">
+  <g id="ico-curso" transform="translate(-1094 -5486)">
+    <g id="ico-modal-curso" transform="translate(-345 5256)">
+      <g id="Group_3739" data-name="Group 3739" transform="translate(1439 230)">
+        <path id="Path_7495" data-name="Path 7495" d="M1283.019,703.38a106.5,106.5,0,1,1,106.5-106.5A106.5,106.5,0,0,1,1283.019,703.38Z" transform="translate(-1176.519 -490.38)" fill="#fff"/>
+      </g>
+      <g id="Group_3740" data-name="Group 3740" transform="translate(1473 264)">
+        <path id="Path_7495-2" data-name="Path 7495" d="M1249.019,635.38a72.5,72.5,0,1,1,72.5-72.5A72.5,72.5,0,0,1,1249.019,635.38Z" transform="translate(-1176.519 -490.38)" fill="#1c39aa"/>
+      </g>
+    </g>
+    <g id="ico-curso-2" data-name="ico-curso" transform="translate(1116.705 5548)">
+      <g id="Group_4136" data-name="Group 4136" transform="translate(48.295)">
+        <g id="Group_4135" data-name="Group 4135">
+          <path id="Path_8176" data-name="Path 8176" d="M116.239,0h-55.4A12.558,12.558,0,0,0,48.3,12.544v62.95A12.558,12.558,0,0,0,60.839,88.037h51.1a3.484,3.484,0,0,0,3.484-3.484V69.8h.813a3.484,3.484,0,0,0,3.484-3.484V3.484A3.484,3.484,0,0,0,116.239,0Zm-7.782,81.069H60.839A5.633,5.633,0,1,1,60.955,69.8h47.5Zm4.3-18.235h-51.8a12.583,12.583,0,0,0-5.691,1.353V12.544a5.581,5.581,0,0,1,5.575-5.575h51.916V62.834Z" transform="translate(-48.295)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4138" data-name="Group 4138" transform="translate(64.323 3.484)">
+        <g id="Group_4137" data-name="Group 4137" transform="translate(0)">
+          <rect id="Rectangle_2957" data-name="Rectangle 2957" width="6.969" height="62.834" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

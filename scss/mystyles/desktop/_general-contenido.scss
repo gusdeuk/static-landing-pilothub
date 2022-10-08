@@ -1,0 +1,326 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        min-width: 768px;
+        margin: 0 auto;
+        /* ----------------------------------------------------- */
+        /* CONTENIDO */
+        /* ----------------------------------------------------- */
+
+        h1 {
+            font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            color: #fff;
+            font-size: 69px;
+            line-height: 1;
+        }
+        h2 {
+            font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            color: #fff;
+            font-size: 49px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    
+        .btn {
+            width: 150px;
+            line-height: 34px;
+            border: 1px solid transparent;
+            text-align: center;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        /* ----------------------------------------------------- */
+        /* BOTONES PASTILLAS */
+        /* ----------------------------------------------------- */
+
+        /* div botones contenedor */
+
+        .botones .btn {
+            padding: 5px 21px 5px 21px;
+        }
+
+        /* btn apilados */
+
+        .btn {
+            width: 100%; /* OVERRIDES BOOSTRAPT */
+            &.apilado {
+                width: auto;
+                padding: 5px 23px 5px 23px;
+                margin-top: 25px;
+            }
+        }
+
+        .btn:focus,
+        .btn.focus {
+            outline: 0;
+            -webkit-box-shadow: 0 0 0 0 rgba(44, 62, 80, 0);
+            box-shadow: 0 0 0 0 rgba(44, 62, 80, 0);
+        }
+
+        /* btn orange */
+        .btn.orange {
+            background-color: $color-naranja;
+            color: $color-blanco;
+        }
+
+        .btn.orange:hover {
+            background-color: $color-placa-2;
+            transition: all 0.4s ease 0s;
+        }
+
+        /* ----------------------------------------------------- */
+        /* FIX */
+        /* ----------------------------------------------------- */
+        .fix-anac {
+            margin-top: 342px;
+        }
+
+        .ico-anac {
+            margin-bottom: 13px;
+        }
+
+        @media (max-width: 992px) {
+            .fix-anac {
+                margin-top: 147px;
+            }
+        }
+
+
+
+        /*** ----------------------------------------------------- ***/
+        /*** ESTILOS GENERALES SECCIONES ***/
+        .section-wrapper {
+            position: relative;
+            overflow: hidden;
+            .content-wrapper {
+                .col-content {
+                    position: relative;
+                    /* div botones contenedor */
+                    .botones {
+                        margin-top: 25px;
+                        max-width: 139px;
+                        min-width: 139px;
+                    }
+                    .col-content-block {
+                        display: flex;
+                    }
+                    .col-content-block.no-pad {
+                        padding: 0 !important;
+                    }
+                    .col-content-block.no-flex {
+                        display: block !important;
+                    }
+                    .col-content-block {
+                        &.block-2 {
+                            margin-top: 24vh !important;
+                        }
+                    }
+                }
+
+                /*** ----------------------------------------------------- ***/
+                /*** ESTILOS GENERALES COL-CONTENT LEFT ***/
+
+                .col-content.left {
+                    flex: 1;
+                    width: 50%;
+                    // ESTOS MARGENES APLICAN SOBRE LA COL LEFT PARA DAR ESPACIO AARIBA//
+                    margin-bottom: 18vh;
+
+                    .col-content-block {
+                        padding-right: 45px;
+                        // justify-content: flex-end; /*para que se vayan al margin rigth*/
+                        .item-wrapper {
+                            margin-right: 50px;
+                            // width: 100%;
+                        }
+                    }
+                }
+
+                /*** ----------------------------------------------------- ***/
+                /*** ESTILOS GENERALES COL-CONTENT RIGHT ***/
+
+                .col-content.right {
+                    flex: 1;
+                    width: 50%;
+                    margin-bottom: 18vh;
+
+                    .col-content-block {
+                        padding-left: 44px;
+                        .item-wrapper {
+                            margin-left: 50px;
+                            // width: 100%;
+                        }
+                        h1 {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            /*** ----------------------------------------------------- ***/
+            /*** ESTILOS GENERALES >>>>>> CONTENT WRAPPER FREE ***/
+            .content-wrapper-free {
+                margin: 0 50px;
+                max-width: 1250px;
+                position: relative;
+                // width: 100%;
+            }
+        }
+
+        /*** ----------------------------------------------------- ***/
+        /*** ESTILOS GENERALES >>>>>> SECTION-2 Y SECTION-4  ***/
+
+        #section-2,
+        #section-4 {
+            .col-content {
+                &.left {
+                    margin-top: 10vh;
+                    .col-content-block {
+                        &.no-pad {
+                            justify-content: flex-end;
+                        }
+                    }
+                }
+            }
+            .col-content {
+                &.right {
+                    margin-top: 10vh;
+                }
+            }
+        }
+
+        /*** ----------------------------------------------------- ***/
+        /*** ESTILOS GENERALES >>>>>> SECTION-1 Y SECTION-3  ***/
+
+        #section-1,
+        #section-3 {
+            .col-content {
+                &.left {
+                    margin-top: 30vh;
+                }
+            }
+        }
+
+        /*** ----------------------------------------------------- ***/
+        /*** ESTILOS GENERALES >>>>>> SECTION-3 Y SECTION-4  ***/
+
+        #section-3,
+        #section-4 {
+            .col-content {
+                .col-content-block {
+                    .item-wrapper {
+                        border-top: rgba(255, 255, 255, 0.4) 1px solid;
+                        padding: 60px 0 60px 0;
+                        &.item-wrapper-3-col {
+                            width: 100%;
+                        }
+                        &.ultimo {
+                            border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+                        }
+                        .content-item-3-col {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .ico-section-3 {
+                                // min-width: 39px;
+                                // max-width: 39px;
+                                text-align: center;
+                                flex: 0 0 39px;
+                            }
+                            .text-item {
+                                padding: 0 13px 0 16px;
+                                line-height: 1.4;
+                                flex: 1 1 auto;
+                                .text-item-2 {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-top: 15px;
+                                    span {
+                                        display: block;
+                                        color: #00afff;
+                                        font-size: 19px;
+                                        margin-right: 12px;
+                                    }
+                                    img {
+                                        margin-right: 12px;
+                                        width: 20px;
+                                    }
+                                }
+                                .botones.aviacion {
+                                    margin-top: 25px;
+                                }
+                            }
+                            .botones {
+                                margin-top: 0px;
+                                flex: 0 0 139px;
+                            }
+                        }
+                    }
+                }
+                &.left {
+                    .col-content-block {
+                        &.sub-tit {
+                            margin: 78px 0 78px 0;
+                            h3 {
+                                flex: 1;
+                            }
+                        }
+                        .contenedor-img-bullet {
+                            max-width: 120px;
+                            max-height: 42px;
+                        }
+                    }
+                }
+
+                &.right {
+                    .col-content-block {
+                        text-align: right;
+                        &.sub-tit {
+                            margin: 78px 0 78px 0;
+                            .text {
+                                text-align: right;
+                                flex: 1;
+                            }
+                        }
+                        .contenedor-img-bullet {
+                            max-width: 120px;
+                            max-height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // bloque instagram para TOP y bottom
+        .instagram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 25px;
+            padding-bottom: 33px;
+            cursor: pointer;
+            // truco paera ocultar y desocultar al animar > si esta la clase animate
+            // esto usa css animate
+            visibility: hidden;
+            &.animated {
+                visibility: visible;
+            }
+            .texto-instagram {
+                display: block;
+                padding-left: 15px;
+                font-weight: 200;
+                font-size: 67px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}

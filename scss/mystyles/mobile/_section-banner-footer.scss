@@ -1,0 +1,37 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+        /* ----------------------------------------------------- */
+        /* SECTION BANNER FOOTER */
+        /* ----------------------------------------------------- */
+
+        #section-banner-footer {
+            background-color: $color-placa-2;
+            text-align: center;
+            .content-wrapper-free {
+                .tit-sumate {
+                    font-size: 35px;
+                    color: $color-naranja;
+                }
+                .text-sumate {
+                    font-size: 23px;
+                    margin-bottom: 30px;
+                }
+
+                .text-sumate-instagram {
+                    font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 65px;
+                    font-weight: 300;
+                    line-height: 1;
+                   
+                }
+
+               
+            }
+        }
+    }
+}

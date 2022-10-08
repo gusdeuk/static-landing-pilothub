@@ -1,0 +1,30 @@
+<svg id="btn-instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.409" height="81.409" viewBox="0 0 81.409 81.409">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.017" x2="0.5" y2="0.972" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fec053"/>
+      <stop offset="0.327" stop-color="#f2203e"/>
+      <stop offset="0.648" stop-color="#b729a8"/>
+      <stop offset="1" stop-color="#5342d6"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3708" data-name="Group 3708" transform="translate(0 0)">
+    <path id="Path_7935" data-name="Path 7935" d="M1217.223,571.789c-22.481,0-40.7-17.648-40.7-40.333a40.706,40.706,0,1,1,81.409,0C1257.928,554.141,1239.7,571.789,1217.223,571.789Z" transform="translate(-1176.519 -490.38)" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="instagram" transform="translate(20.259 20.005)">
+    <g id="Group_3696" data-name="Group 3696">
+      <g id="Group_3695" data-name="Group 3695">
+        <path id="Path_7915" data-name="Path 7915" d="M29.257,0H11.978A11.992,11.992,0,0,0,0,11.978V29.257A11.992,11.992,0,0,0,11.978,41.235H29.257A11.992,11.992,0,0,0,41.235,29.257V11.978A11.992,11.992,0,0,0,29.257,0Zm8.757,29.257a8.767,8.767,0,0,1-8.757,8.757H11.978a8.767,8.767,0,0,1-8.757-8.757V11.978a8.767,8.767,0,0,1,8.757-8.757H29.257a8.767,8.767,0,0,1,8.757,8.757Z" fill="#fff" stroke="#e4e8f0" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_3698" data-name="Group 3698" transform="translate(9.503 9.503)">
+      <g id="Group_3697" data-name="Group 3697">
+        <path id="Path_7916" data-name="Path 7916" d="M129.114,118a11.114,11.114,0,1,0,11.114,11.114A11.127,11.127,0,0,0,129.114,118Zm0,19.007a7.893,7.893,0,1,1,7.893-7.893A7.9,7.9,0,0,1,129.114,137.007Z" transform="translate(-118 -118)" fill="#fff" stroke="#e4e8f0" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_3700" data-name="Group 3700" transform="translate(29.636 7.162)">
+      <g id="Group_3699" data-name="Group 3699" transform="translate(0 0)">
+        <ellipse id="Ellipse_52" data-name="Ellipse 52" cx="1.852" cy="1.852" rx="1.852" ry="1.852" fill="#fff" stroke="#e4e8f0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

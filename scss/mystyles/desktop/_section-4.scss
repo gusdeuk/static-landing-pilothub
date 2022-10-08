@@ -1,0 +1,121 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION 4 */
+        /* ----------------------------------------------------- */
+
+        #section-4 {
+            .content-wrapper {
+                .col-content {
+                    .col-content-block {
+                        .item-wrapper {
+                            .content-item-3-col {
+                                .text-item {
+                                    color: $color-azul-oscuro;
+                                    .text-item-2 {
+                                        span {
+                                            color: $color-blanco;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.left {
+                        .col-content-block {
+                            .text {
+                                flex: 1;
+                            }
+                            h1 {
+                                margin-top: 200px;
+                            }
+                        }
+                    }
+                    &.right {
+                        .col-content-block {
+                            .img-avion-section-4 {
+                                margin-bottom: 22vh;
+                                margin-top: 62vh;
+                                margin-left: 1vh;
+                            }
+                            .img-licencia-comercial {
+                                margin-top: 12vh;
+                            }
+                        }
+                        .img-licencia-comercial {
+                            position: absolute;
+                            bottom: -210px; /* este nro es porque se tiene que tapar con la diagonal de abajo*/
+                            left: 0;
+                            /* un lemento absoluto se posisiona como minimo con 2 coordenadas.
+                    El width y heigth viene determinado x el contendio de adentro, o sea si esta vacio no se ve nada, si o si jhay que ponerle width y heigth*/
+                            // height: ;
+                            // width:1234px;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ----------------------------------------------------- */
+        /* SECTION VIDEO */
+        /* ----------------------------------------------------- */
+
+        #section-video {
+            background-image: url("../images/gral/video.jpg");
+            // height: 86vh;
+            display: flex;
+            justify-content: center;
+            border-bottom: #ff970d 17px solid;
+            .content-wrapper-free {
+                .logo {
+                    text-align: center;
+                    padding-top: 39px;
+                    margin: 0 auto;
+                }
+                .texto {
+                    text-align: center;
+                    padding-top: 13px;
+                    .texto-1,
+                    .texto-2 {
+                        font-weight: 500;
+                        font-size: 86px;
+                        line-height: 1;
+                        display: block;
+                        opacity: 0.7;
+                        filter: alpha(opacity=70); /* IE8 and lower */
+                    }
+                    .texto-2 {
+                        font-size: 100px;
+                    }
+                }
+                .icos-seccion-video {
+                    padding-top: 13px;
+                    margin: 0 auto;
+                   
+                    .icos-seccion-video-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        .ico {
+                            .ico-img {
+                                text-align: center;
+                                height: 55px;
+                                margin: 0 auto;
+                            }
+                            .ico-textos {
+                                opacity: 0.4;
+                                font-size: 18px;
+                                font-weight: 600;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

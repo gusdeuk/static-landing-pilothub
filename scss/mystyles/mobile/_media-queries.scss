@@ -1,0 +1,192 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-mobile {
+
+        .fix-65 {
+            width:56px;
+        }
+        /* min de 450px a 630px*/
+
+        @media (max-width: 630px) {
+            .section-wrapper .content-wrapper-free {
+                padding: 0 20px;
+                .instagram {
+                    zoom: 60%;
+                    
+                }
+            }
+
+            #section-video {
+                .content-wrapper-free {
+                    .texto {
+                        .texto-1 {
+                            font-size: 47px;
+                        }
+                        .texto-2 {
+                            font-size: 60px;
+                        }
+                    }
+                    .icos-seccion-video {
+                        // width: 90%;
+                        .icos-seccion-video-wrapper {
+                            .ico {
+                                .ico-img {
+                                    height: 33px;
+                                    width: 33px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .ico-textos {
+                                    font-size: 13px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-bienvenidos {
+                .content-wrapper-free {
+                    .texto-bienvenidos {
+                        text-align: center;
+                        margin-top: 75px;
+                        margin-bottom: 75px;
+
+                        .text-bienvenidos {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+
+            #section-3 {
+                .content-wrapper {
+                    .img-graduacion-section-3 {
+                        zoom: 80%;
+                    }
+                }
+            }
+            #section-4 {
+                .content-wrapper {
+                    .img-licencia-comercial-mobile {
+                        zoom: 80%;
+                    }
+                }
+            }
+        }
+
+        /***************** MEDIA QUERY 360-450PX ***********************/
+        /* min de 360px a 450px*/
+        @media (max-width: 450px) {
+            #section-video {
+                .content-wrapper-free {
+                    .instagram {
+                        padding-top: 50px;
+                        padding-bottom: 44px;
+                    }
+                    .logo {
+                        width: 286px;
+                    }
+
+                    .texto {
+                        .texto-1 {
+                            font-size: 35px;
+                        }
+
+                        .texto-2 {
+                            font-size: 39px;
+                        }
+                    }
+                    .icos-seccion-video {
+                        margin: 0;
+                        .icos-seccion-video-wrapper {
+                            .ico {
+                                flex: 0 0 36px;
+                                .ico-img {
+                                    height: 32px;
+                                    width: 23px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .ico-textos {
+                                    font-size: 10px;
+                                    text-align: center;
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-bienvenidos {
+                .content-wrapper-free {
+                    .texto-bienvenidos {
+                        margin-top: 53px;
+                        margin-bottom: 100px;
+                        .tit-bienvenidos {
+                            font-size: 61px;
+                        }
+
+                        .subtit-bienvenidos {
+                            font-size: 50px;
+                        }
+                        .text-bienvenidos {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            #section-banner-footer {
+                .content-wrapper-free {
+                    .tit-sumate {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .section-wrapper {
+                position: relative;
+                .content-wrapper {
+                    .col-content-mobile {
+                        margin: 36px 35px 0 35px;
+                        .col-content-block {
+                            .item-wrapper {
+                                .content-item-3-col {
+                                    .text-item {
+                                        font-size: 15px;
+                                    }
+                                    .img-horas {
+                                        flex: 0 0 103px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #section-footer {
+                .content-wrapper-free {
+                    .tit-egresado {
+                        font-size: 57px;
+                        .text-egresado {
+                            font-size: 38px;
+                        }
+                    }
+                }
+            }
+
+           
+        }
+    }
+}

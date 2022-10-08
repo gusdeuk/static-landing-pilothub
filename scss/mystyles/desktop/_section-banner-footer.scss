@@ -1,0 +1,63 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION BANNER FOOTER */
+        /* ----------------------------------------------------- */
+
+        #section-banner-footer {
+            background-color: $color-placa-2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: visible;
+            .content-wrapper {
+                position: relative;
+                display: flex;
+                flex: 1;
+                margin: 0 50px;
+                max-width: 1250px;
+                padding-top: 130px;
+                .col-content {
+                    &.left {
+                        z-index: 5;
+                        .tit-sumate {
+                            font-size: 40px;
+                            color: $color-naranja;
+                        }
+                        .text-sumate {
+                            font-size: 30px;
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    &.right {
+                        .col-content-block {
+                            justify-content: flex-end;
+
+                            .text-sumate-instagram {
+                                font-family: "Bebas", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                font-size: 90px;
+                                font-weight: 300;
+                                line-height: 1;
+                                text-align: right;
+                            }
+                        }
+                        .img-back-felicitaciones {
+                            position: absolute;
+                            top: -20vh;
+                            left: -50%;
+                            max-width: 502px;
+                            max-height: 740px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

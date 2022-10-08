@@ -1,0 +1,12 @@
+<svg id="ico-cad" xmlns="http://www.w3.org/2000/svg" width="116.132" height="128.146" viewBox="0 0 116.132 128.146">
+  <path id="Path_7470" data-name="Path 7470" d="M96.11,152.137H8.009A8.007,8.007,0,0,1,0,144.128V40.009A8.007,8.007,0,0,1,8.009,32h88.1a8.007,8.007,0,0,1,8.009,8.009V144.128A8.007,8.007,0,0,1,96.11,152.137Zm0,0" transform="translate(0 -23.991)" fill="#103c6a"/>
+  <path id="Path_7471" data-name="Path 7471" d="M48,80h80.091v96.11H48Zm0,0" transform="translate(-35.986 -59.977)" fill="#fff"/>
+  <path id="Path_7472" data-name="Path 7472" d="M160.037,24.027H136.009A8.007,8.007,0,0,1,128,16.018V0h40.046V16.018A8.007,8.007,0,0,1,160.037,24.027Zm0,0" transform="translate(-95.963)" fill="#103c6a"/>
+  <path id="Path_7473" data-name="Path 7473" d="M288.055,296.082H248.009A8.007,8.007,0,0,1,240,288.073V232.009A8.007,8.007,0,0,1,248.009,224h40.046a8.007,8.007,0,0,1,8.009,8.009v56.064A8.007,8.007,0,0,1,288.055,296.082Zm0,0" transform="translate(-179.932 -167.936)" fill="#48c8ef"/>
+  <g id="Group_3232" data-name="Group 3232" transform="translate(20.023 32.037)">
+    <path id="Path_7474" data-name="Path 7474" d="M316.032,360.009H292A4,4,0,1,1,292,352h24.027a4,4,0,0,1,0,8.009Zm0,0" transform="translate(-235.941 -295.936)" fill="#fff"/>
+    <path id="Path_7475" data-name="Path 7475" d="M316.032,296.009H292A4,4,0,1,1,292,288h24.027a4,4,0,0,1,0,8.009Zm0,0" transform="translate(-235.941 -247.954)" fill="#fff"/>
+    <path id="Path_7476" data-name="Path 7476" d="M316.032,424.009H292A4,4,0,1,1,292,416h24.027a4,4,0,0,1,0,8.009Zm0,0" transform="translate(-235.941 -343.918)" fill="#fff"/>
+    <path id="Path_7477" data-name="Path 7477" d="M88.009,144.018H80V128H96.018v8.009H88.009Zm0,0" transform="translate(-80 -128)" fill="#fff"/>
+  </g>
+</svg>

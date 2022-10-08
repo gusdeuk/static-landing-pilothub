@@ -1,0 +1,91 @@
+/* ------------------------------------------------------- */
+/* import global stuff */
+/* ------------------------------------------------------- */
+
+/*--------- Original Bootstrap ---------*/
+// @import '../vendor/bootstrap/css/bootstrap.min.css';
+/*--------- Flaty Bootstrap ---------*/
+@import "../vendor/bootstrap/flatly/bootstrap.min.css";
+// @import "../vendor/bootstrap/darkly/bootstrap.min.css";
+// @import "../vendor/bootstrap/pulse/bootstrap.min.css";
+
+@import "../vendor/animate-css/animate.min.css";
+@import "../vendor/hover-css/hover-min.css";
+@import "../vendor/wickedcss/wickedcss.css";
+//@import "../vendor/select2/css/select2.min.css";
+//@import "../vendor/mega-menu/menu.css";
+//@import "../vendor/owl-carrousel/owl.carousel.css";
+@import "../vendor/pace/pace-theme-center-radar.css";
+
+
+
+
+/* ------------------------------------------------------- */
+/* import web fonts / icons*/
+/* ------------------------------------------------------- */
+@import "../fonts/font-awesome/font-awesome.min.css";
+/*@import "../fonts/roboto/_stylesheet.css";*/
+/*@import "../fonts/poppins/_stylesheet.css";*/
+/*@import '../fonts/flat-icon/flaticon.css';*/
+@import '../fonts/bebas/_stylesheet.css';
+/* @import "../fonts/metropolis/_stylesheet.css"; */
+/* @import "../fonts/lato/_stylesheet.css"; */
+@import "../fonts/montserrat/_stylesheet.css"; 
+
+
+/* ------------------------------------------------------- */
+/* import VARIABLES */
+/* ------------------------------------------------------- */
+@import "variables";
+
+/* ------------------------------------------------------- */
+/* import ICONOS */
+/* ------------------------------------------------------- */
+@import "mystyles/iconos";
+
+
+/* ------------------------------------------------------- */
+/* import ESTILO GENERAL */
+/* ------------------------------------------------------- */
+@import "mystyles/general/general";
+
+/* ------------------------------------------------------- */
+/* import ESTILOS DESKTOP */
+/* ------------------------------------------------------- */
+@import "mystyles/desktop/background-sections";
+@import "mystyles/desktop/general-contenido";
+
+@import "mystyles/desktop/section-video";
+@import "mystyles/desktop/section-1";
+@import "mystyles/desktop/section-2";
+@import "mystyles/desktop/section-3";
+@import "mystyles/desktop/section-4";
+@import "mystyles/desktop/section-banner-footer";
+@import "mystyles/desktop/section-bienvenidos";
+@import "mystyles/desktop/section-footer";
+@import "mystyles/desktop/section-whatsapp";
+
+@import "mystyles/desktop/floating-elements";
+
+@import "mystyles/desktop/media-queries";
+
+/* ------------------------------------------------------- */
+/* import ESTILOS MOBILE*/
+/* ------------------------------------------------------- */
+
+@import "mystyles/mobile/background-sections";
+@import "mystyles/mobile/general-contenido";
+
+@import "mystyles/mobile/section-video";
+@import "mystyles/mobile/section-1";
+@import "mystyles/mobile/section-2";
+@import "mystyles/mobile/section-3";
+@import "mystyles/mobile/section-4";
+@import "mystyles/mobile/section-banner-footer";
+@import "mystyles/mobile/section-bienvenidos";
+@import "mystyles/mobile/section-footer";
+@import "mystyles/mobile/section-whatsapp";
+
+@import "mystyles/mobile/floating-elements";
+
+@import "mystyles/mobile/media-queries";

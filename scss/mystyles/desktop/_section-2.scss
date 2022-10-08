@@ -1,0 +1,72 @@
+/* AGREGO CLASE TYPE-DESKTOP A LA PAGINA PARA NO PISAR EN MOBILE*/
+/******
+/* ----------------------------------------------------- */
+// TODO:SIEMPRE DEBO DE AGREGAR LA CLASE AL BODY
+
+body {
+    &.type-desktop {
+        /* ----------------------------------------------------- */
+        /* SECTION 2 */
+        /* ----------------------------------------------------- */
+
+        #section-2 {
+            .content-wrapper {
+                margin-top: 140px; /* valor especial xq tiene imagen arriba de la otra seccion*/
+                .col-content {
+
+                    .btn.orange:hover {
+                        background-color: $color-placa-3;
+                        transition: all 0.4s ease 0s;
+                    }
+                    &.left {
+                        .col-content-block.no-pad {
+                            justify-content: flex-end;
+                        }
+                        .col-content-block {
+                            .contenedor-img-bullet {
+                                width: 120px;
+                                height: 42px;
+                                right: 45px; /* tiene 45 xq es el padding left para que quede justo cuando empieza la linea*/
+                                top: 36px;
+                            }
+                            .contenedor-cont-section-2 {
+                                text-align: center;
+                                margin-top: 400px;
+                                h2 {
+                                    margin-top: 25px;
+                                }
+                                
+
+                                .ico-medico {
+                                    margin: 0 auto;
+                                    width: 129px;
+                                    height: 110px;
+                                }
+                            }
+                        }
+                    }
+                    &.right {
+                        .col-content-block {
+                            .contenedor-img-bullet {
+                                width: 120px;
+                                height: 42px;
+                                left: 44px; /* tiene 45 xq es el padding left para que quede justo cuando empieza la linea*/
+                                top: 0;
+                            }
+                            .contenedor-cont-section-2 {
+                                text-align: center;
+                                h2 {
+                                    margin-top: 25px;
+                                }
+                            }
+                            &.afip,
+                            &.cad {
+                                margin-top: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
