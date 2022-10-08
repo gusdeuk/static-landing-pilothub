@@ -2,16 +2,16 @@
 
 # PILOT HUB - Engaging Landing Page
 
-This project is a nice landing page to promote services related to Pilot student audience.
+This project is a high impact landing page to promote services related to Pilot student audience.
 
 ---
 
 ## Project Features
-- Single Landing page
-- Challenging design
-- Jquery based
-- Scroll spy behaviors to reveal content on V scroll
-- Full responsoive
+- Single Landing Page
+- Challenging Design
+- HTML/CSS/Jquery
+- Scroll Spy behavior to reveal content on Scroll
+- Full Responsive / Mobile friendly
 - CSS Animations
 - Others
 
